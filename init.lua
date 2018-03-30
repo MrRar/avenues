@@ -1,0 +1,6 @@
+local mod_path = minetest.get_modpath("avenues")
+dofile(mod_path .. "/street_lights.lua")
+dofile(mod_path .. "/traffic_lights.lua")
+dofile(mod_path .. "/signs.lua")
+dofile(mod_path .. "/blocks.lua")
+dofile(mod_path .. "/metal_bar.lua")
